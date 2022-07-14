@@ -12,8 +12,8 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
+    compileSdkVersion 30
+    buildToolsVersion '29.0.3'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -21,8 +21,8 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
+        minSdkVersion 19
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
     }
